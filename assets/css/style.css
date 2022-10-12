@@ -2,6 +2,7 @@
     --background: #202124;
     --button_bg: #B25068;
     --button_bg_hover: #a83250;
+    --danger: #fb4a4a;
 }
 * {
     background-color: var(--background);
@@ -48,4 +49,8 @@ form {
     border: 1px solid var(--button_bg_hover);
     outline: 1px solid var(--button_bg_hover);
 
+}
+
+.input_error {
+    border: 1px solid var(--danger) !important;
 }
